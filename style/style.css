@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    min-width: 290px;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.2fr 1fr;
+}
+
+#navbar {
+    width: 200px;
+    
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: brown; 
+    font-weight: 700;
+    cursor: pointer;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+
+
+}
+
+#navbar li {
+    list-style: none;
+}
+
+header {
+    font-size: 2em;
+    font-weight: 700;
+
+}
+
+code {
+    display: block;
+    white-space: pre-line;
+    word-break: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+}
+
+section article {
+    font-size: 0,4em;
+}
+
+#main-doc header {
+    text-align: left;
+    margin: 0;
+}
+
+#main-doc {
+    position: relative;
+    margin-left: 0;
+}
+
+@media only screen and (max-width 550px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
